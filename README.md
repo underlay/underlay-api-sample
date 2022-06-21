@@ -12,11 +12,11 @@ For now, you do not need any authentication for accessing the API. Simply [`fetc
 
 ## Avaiable endpoints
 
-- Endpoint: `/api/${namespace}/${collection}/downloads/latest`
+- Endpoint: `/api/${namespace}/${collectionSlug}/exports/${exportName}/downloads/latest`
 - Sample: `/samples/download.html`
-- Example: [pine/brooklyn-cafe-rating](https://dev.underlay.org/api/pine/brooklyn-cafe-rating/downloads/latest)
+- Example: [`/api/pine/louis-kahn-architecture-jynpvq9vgg/exports/json-001/downloads/latest`](https://dev.underlay.org/api/pine/louis-kahn-architecture-jynpvq9vgg/exports/json-001/downloads/latest)
 
-This returns the `collection` owned by `namespace`, in JSON format.
+This returns the export of `namespace/collection`, in JSON format.
 
 ## License
 
